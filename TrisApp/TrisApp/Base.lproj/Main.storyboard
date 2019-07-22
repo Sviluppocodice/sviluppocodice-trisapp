@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TrisApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="woO-cc-Lga">
+                                <rect key="frame" x="0.5" y="40" width="374" height="375"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scacchiera" translatesAutoresizingMaskIntoConstraints="NO" id="5Qa-9i-cAl">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="375"/>
+                                    </imageView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SrP-hY-pRq" customClass="Casella" customModule="TrisApp" customModuleProvider="target">
+                                        <rect key="frame" x="5" y="5" width="100" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="9NG-9C-U7G"/>
+                                            <constraint firstAttribute="height" constant="100" id="VZF-9w-RAc"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RGe-1J-cdv" customClass="Casella" customModule="TrisApp" customModuleProvider="target">
+                                        <rect key="frame" x="269" y="5" width="100" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="KJq-FZ-tyq"/>
+                                            <constraint firstAttribute="width" constant="100" id="PCH-ap-WnA"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KHJ-br-HSG" customClass="Casella" customModule="TrisApp" customModuleProvider="target">
+                                        <rect key="frame" x="137" y="5" width="100" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="QZS-Mw-zAj"/>
+                                            <constraint firstAttribute="height" constant="100" id="Rej-fw-ihC"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jO2-FH-x5S" customClass="Casella" customModule="TrisApp" customModuleProvider="target">
+                                        <rect key="frame" x="5" y="137.5" width="100" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="1Je-sa-WtP"/>
+                                            <constraint firstAttribute="width" constant="100" id="4hh-Qi-RaN"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qye-LJ-9F6" customClass="Casella" customModule="TrisApp" customModuleProvider="target">
+                                        <rect key="frame" x="269" y="137.5" width="100" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="AAR-3Y-viB"/>
+                                            <constraint firstAttribute="height" constant="100" id="S3z-Ty-EcN"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CnI-WY-SYx" customClass="Casella" customModule="TrisApp" customModuleProvider="target">
+                                        <rect key="frame" x="137" y="137.5" width="100" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="UOZ-zC-BSb"/>
+                                            <constraint firstAttribute="width" constant="100" id="h3X-td-liQ"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="63L-pu-lxW" customClass="Casella" customModule="TrisApp" customModuleProvider="target">
+                                        <rect key="frame" x="5" y="270" width="100" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="4cu-tg-DMK"/>
+                                            <constraint firstAttribute="width" constant="100" id="GU9-r8-38V"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3f8-4H-GUc" customClass="Casella" customModule="TrisApp" customModuleProvider="target">
+                                        <rect key="frame" x="269" y="270" width="100" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="HW2-hb-rWD"/>
+                                            <constraint firstAttribute="height" constant="100" id="Qcz-Wi-9Zc"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k99-bG-hvn" customClass="Casella" customModule="TrisApp" customModuleProvider="target">
+                                        <rect key="frame" x="137" y="270" width="100" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="Bhj-YD-O8w"/>
+                                            <constraint firstAttribute="width" constant="100" id="UKi-Vs-Xmd"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="5Qa-9i-cAl" firstAttribute="top" secondItem="woO-cc-Lga" secondAttribute="top" id="7U0-dh-Y7Y"/>
+                                    <constraint firstAttribute="width" constant="374" id="8cT-zQ-kIA"/>
+                                    <constraint firstItem="jO2-FH-x5S" firstAttribute="leading" secondItem="woO-cc-Lga" secondAttribute="leading" constant="5" id="8mr-gY-mOa"/>
+                                    <constraint firstItem="k99-bG-hvn" firstAttribute="centerX" secondItem="woO-cc-Lga" secondAttribute="centerX" id="9Lf-Wf-5be"/>
+                                    <constraint firstItem="SrP-hY-pRq" firstAttribute="leading" secondItem="woO-cc-Lga" secondAttribute="leading" constant="5" id="AXE-Ct-m2C"/>
+                                    <constraint firstItem="RGe-1J-cdv" firstAttribute="top" secondItem="woO-cc-Lga" secondAttribute="top" constant="5" id="Am8-PI-CMP"/>
+                                    <constraint firstAttribute="bottom" secondItem="3f8-4H-GUc" secondAttribute="bottom" constant="5" id="DFT-p5-jnq"/>
+                                    <constraint firstItem="CnI-WY-SYx" firstAttribute="centerY" secondItem="woO-cc-Lga" secondAttribute="centerY" id="DKt-vM-c4p"/>
+                                    <constraint firstItem="qye-LJ-9F6" firstAttribute="centerY" secondItem="woO-cc-Lga" secondAttribute="centerY" id="FP3-1j-ezn"/>
+                                    <constraint firstAttribute="trailing" secondItem="5Qa-9i-cAl" secondAttribute="trailing" id="Jvv-sU-3ba"/>
+                                    <constraint firstItem="CnI-WY-SYx" firstAttribute="centerX" secondItem="woO-cc-Lga" secondAttribute="centerX" id="KfJ-dI-E7f"/>
+                                    <constraint firstItem="63L-pu-lxW" firstAttribute="leading" secondItem="woO-cc-Lga" secondAttribute="leading" constant="5" id="LBy-K7-KyB"/>
+                                    <constraint firstAttribute="trailing" secondItem="qye-LJ-9F6" secondAttribute="trailing" constant="5" id="M4s-5e-uwa"/>
+                                    <constraint firstItem="SrP-hY-pRq" firstAttribute="top" secondItem="woO-cc-Lga" secondAttribute="top" constant="5" id="cGk-Xx-rtF"/>
+                                    <constraint firstItem="KHJ-br-HSG" firstAttribute="top" secondItem="woO-cc-Lga" secondAttribute="top" constant="5" id="hTT-IZ-juN"/>
+                                    <constraint firstAttribute="height" constant="375" id="hYx-8Q-HW3"/>
+                                    <constraint firstAttribute="trailing" secondItem="3f8-4H-GUc" secondAttribute="trailing" constant="5" id="jzO-ah-yna"/>
+                                    <constraint firstItem="5Qa-9i-cAl" firstAttribute="leading" secondItem="woO-cc-Lga" secondAttribute="leading" id="pdo-WY-XH7"/>
+                                    <constraint firstAttribute="trailing" secondItem="RGe-1J-cdv" secondAttribute="trailing" constant="5" id="q70-XW-WLU"/>
+                                    <constraint firstAttribute="bottom" secondItem="5Qa-9i-cAl" secondAttribute="bottom" id="sL6-G7-Kii"/>
+                                    <constraint firstItem="jO2-FH-x5S" firstAttribute="centerY" secondItem="woO-cc-Lga" secondAttribute="centerY" id="wZn-SB-bTu"/>
+                                    <constraint firstAttribute="bottom" secondItem="63L-pu-lxW" secondAttribute="bottom" constant="5" id="xwI-qw-ElV"/>
+                                    <constraint firstItem="KHJ-br-HSG" firstAttribute="centerX" secondItem="woO-cc-Lga" secondAttribute="centerX" id="xy5-Ah-uS4"/>
+                                    <constraint firstAttribute="bottom" secondItem="k99-bG-hvn" secondAttribute="bottom" constant="5" id="ykU-PG-N7j"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzb-td-4wq">
+                                <rect key="frame" x="30" y="455" width="315" height="30"/>
+                                <state key="normal" title="Nuova Partita"/>
+                                <connections>
+                                    <action selector="nuovaPartitaButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Paw-7d-yri"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bzb-td-4wq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="1f6-Gs-amU"/>
+                            <constraint firstItem="woO-cc-Lga" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="2cy-XI-kJ7"/>
+                            <constraint firstItem="woO-cc-Lga" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="N9a-hb-Rbw"/>
+                            <constraint firstItem="bzb-td-4wq" firstAttribute="top" secondItem="woO-cc-Lga" secondAttribute="bottom" constant="40" id="e5B-Vh-AOq"/>
+                            <constraint firstItem="bzb-td-4wq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fz3-YH-zgm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="casella1Container" destination="SrP-hY-pRq" id="DNO-zQ-vIc"/>
+                        <outlet property="casella2Comntainer" destination="KHJ-br-HSG" id="zcZ-vz-KlV"/>
+                        <outlet property="casella3Container" destination="RGe-1J-cdv" id="gCo-ue-87s"/>
+                        <outlet property="casella4Container" destination="jO2-FH-x5S" id="KD9-jA-HGC"/>
+                        <outlet property="casella5Container" destination="CnI-WY-SYx" id="ddd-IY-ELc"/>
+                        <outlet property="casella6Container" destination="qye-LJ-9F6" id="hoc-bH-TT5"/>
+                        <outlet property="casella7Container" destination="63L-pu-lxW" id="eu1-bj-7QV"/>
+                        <outlet property="casella8Container" destination="k99-bG-hvn" id="sJD-uR-XyX"/>
+                        <outlet property="casella9Container" destination="3f8-4H-GUc" id="Gp6-70-2cw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="33.733133433283363"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="scacchiera" width="276" height="270"/>
+    </resources>
+</document>
